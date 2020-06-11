@@ -34,7 +34,7 @@
     "jsonwebtoken": "^8.2.2",
     "less-middleware": "~2.2.1",
     "line-reader": "^0.4.0",
-    "mongoose": "^5.4.12",
+    "mongoose": "^5.7.5",
     "mongoose-dynamic-schemas": "^1.2.6",
     "mongoose-jsonform": "^0.1.0",
     "mongoose-schema-jsonschema": "^1.2.1",
