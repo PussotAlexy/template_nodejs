@@ -1,0 +1,64 @@
+{
+    
+    "nats": "nats://51.15.198.10:4222",
+    "mongodb" : "mongodb://localhost:27017/gstflux",
+
+    "_nats" : "nats://192.168.0.3:4222",
+    "_mongodb" : "mongodb://192.168.0.3:27017/gstflux",
+
+    "ftp": {
+            "host" : "ftp.cluster027.hosting.ovh.net",
+            "user" : "acteamladr-alexy",
+            "password" : "Acteam59",
+            "port" : 21,
+            "secure" : false,
+            "rejectUnauthorized" :false
+        },
+
+    "sftp_prod": {
+        "host" : "51.68.78.173",
+        "user" : "debian",
+        "password" : "ZNxI7vqhmLZe00KrZVxM",
+        "port" : 22
+    },
+
+    "sftp": {
+        "host" : "51.83.106.8",
+        "user" : "debian",
+        "password" : "uJolU1DExV6kUNL5hK9Y",
+        "port" : 22
+    },
+
+    "env": "pre-prod",
+
+    "CRONExportProduit" : "https://preprod.ducatillon.be/modules/storecommander/c8f1de2cf49/SC/cron_export.php?key=cab3da5b274c458587dc73ea005d446d",
+
+    "DirExportProduit" : "/home/debian/ducbe-app-prep1_chroot/modules/storecommander/export/",
+    
+    "CRONCommande001" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_001.php?key=3823722289dc75040589b6cb187137a6",
+    "CRONCommande002" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_002.php?key=3823722289dc75040589b6cb187137a6",
+    "CRONCommande003" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_003.php?key=3823722289dc75040589b6cb187137a6",
+    "CRONCommande004" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_004.php?key=3823722289dc75040589b6cb187137a6",
+    "CRONCommande005" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_005.php?key=3823722289dc75040589b6cb187137a6",
+    "CRONCommande006" : "https://preprod.ducatillon.be/modules/scquickaccounting/cron_006.php?key=3823722289dc75040589b6cb187137a6",
+
+
+    "CRONStoreCommanderArticle" : "https://preprod.ducatillon.be/modules/storecommander/c8f1de2cf49/SC/cron_import_001.php?key=cab3da5b274c458587dc73ea005d446d",
+    "CRONStoreCommanderPrix" : "https://preprod.ducatillon.be/modules/storecommander/c8f1de2cf49/SC/cron_import_002.php?key=cab3da5b274c458587dc73ea005d446d",
+    "CRONStoreCommanderPoids" : "https://preprod.ducatillon.be/modules/storecommander/c8f1de2cf49/SC/cron_import_003.php?key=cab3da5b274c458587dc73ea005d446d",
+    "_CRONStoreCommanderStock" : "https://www.ducatillon.be/modules/storecommander/c8f1de2cf49/SC/cron_import_004.php?key=cc5328036c1741f842a1841150ea1bce",
+
+    "CRONExportClient" : "https://preprod.ducatillon.be/modules/scexportcustomers/export.php?id_lang=1&cron=1",
+
+    "fileTransfertIn" : "./files/in/transfert/",
+    "fileTransfertDone" : "./files/done/transfert/",
+    "fileTranfertBinary" : "./files/done/binaire/",
+    "fileTransfertStock" : "./files/done/reprise/stock/",
+    "fileTransfertPrix" : "./files/done/reprise/prix/",
+    "fileTransfertPoids" : "./files/done/reprise/poids/",
+    "fileTransfertLivraison" : "./files/done/reprise/livraison/",
+    "fileTransfertEcoPart" : "./files/done/reprise/ecopart/",
+    "fileTransfertMetaDescription" : "./files/done/reprise/metaDescription/",
+    "fileFTP" : "/home/debian/ducbe-app-prep1_chroot/modules/storecommander/import/",
+    "fileFTPImages" : "/home/debian/ducbe-app-prep1_chroot/modules/storecommander/import/images/"
+}
