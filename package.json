@@ -43,7 +43,7 @@
     "move-file": "^1.2.0",
     "nats": "^1.2.2",
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "pg-promise": "^8.4.0",
